@@ -63,3 +63,9 @@ python3 transparent_bridge.py
 Now we have the MQTT-SN broker and the trasparent bridge running, they are waiting for a message. Let'see the prototype and how to make it works.
 
 ## Prototype
+The system is composed by the sensors and the actuators seen above, but there are also:
+* Two **resistor** of 220 Ohm.
+* A **diode** rectifier.
+* A **NPN trasnistor**
+
+They are connected with the nucleo board like in the following schema:
