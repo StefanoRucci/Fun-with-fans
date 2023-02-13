@@ -30,6 +30,6 @@ This is a schema of the compontents that make up the system both at the *IoT dev
 After this phase the data collected by the board arrive to **AWS** cloud service, and they have to be stored in a permanent way in a database. AWS allows us to use a NoSQL database called *DynamoDB*, and after to have created a table inside the microservice, we store the data received on the topic temp. After this in order to show this data on the web dashboard we have to use the **REST API**, by means of this is possible to extract the data from the table with a **lambda function**.
 
 ## Network Performance
-The messages on the network, and in particular the messages published on the topic" are in the format " *t<temp>h<hum>* ", for example a possible message is "*t20.0h59.0*", so the lenght of a single message sent on the network is 10 bytes.
+The messages on the network, and in particular the messages published on the topic" are in the format "*tXX.XhYY.Y*", for example a possible message is "*t20.0h59.0*", so the lenght of a single message sent on the network is 10 bytes.
 
 # Walkthrough of the system
