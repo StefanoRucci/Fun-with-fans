@@ -6,4 +6,6 @@ The IoT device is developed using RIOT-OS as operating system and with a STM NUC
 ## Sensors
 The sensors of the system are an *ultrasonic sensor* and a *digital temperature sensor*.
 * **Ultrasonic Sensor:** by means of this sensor it is possible to check whether someone is sitting on the chair at the workstation. The HC-SR04 ultrasonic sensor uses sonar to determine distance to an object like bats or dolphins do and it operates in a distance range going from 2cm to 400 cm so it is perfect for our purpose. it is positioned on the back of the chair at neck height, so as to be able to correctly verify the presence of a person.
-*  **Digital temperature sensor**
+*  **Digital temperature-humidty sensor:** it is a basic, low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed). With this sensor it is possible to measure the post office ambient temperature. 
+### Sampling
+dddddd
