@@ -77,3 +77,8 @@ Once the circuit is built, we have to flash the firmware on the board. First of 
 > sudo ./RIOT/dist/tools/tapsetup/tapsetup -c 2 
 > sudo ip a a 2000:2::1/64 dev tapbr0
 ```
+After this you have to go inside the folder where there is the code (*main.c* and *Makefile*) and run the command:
+```
+> make flash term all
+```
+And now your system is running local and speak with to the Mosquitto broker. Let's see how to setup AWS in order to send the data to the cloud and store them inside DynamoDB table.
