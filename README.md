@@ -82,3 +82,12 @@ After this you have to go inside the folder where there is the code (*main.c* an
 > make flash term all
 ```
 And now your system is running local and speak with to the Mosquitto broker. Let's see how to setup AWS in order to send the data to the cloud and store them inside DynamoDB table.
+
+## DynamoDB
+Now first of all on AWS you have to create a table where the values sent on the topic have to be stored.
+
+## AWS IoT Core
+Once the table was created, you have to setup a thing on AWS that can store automatically messages arriving on the broker. From the AWS IoT Core homepage you have to follow the steps of *connect a new device*. At the end of the configuration you will have the files to configure the trasnparent bridge in the right way. Once this is done, by means of a rule (using role engine of AWS IoT Core) it is possible to store automatically the messages arriving on the broker inside the DynamoDB table created before.
+
+## Lambda Function
+Last, thanks to this lambda function, it is possible to extract the data stored inside the table, so that it is possible to do available for the user.
