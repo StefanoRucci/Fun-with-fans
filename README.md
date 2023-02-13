@@ -35,7 +35,6 @@ The messages on the network, and in particular the messages published on the top
 # Walkthrough of the system
 ## Mosquitto (MQTT-SN Broker)
 The first thing to do is to setup the MQTT-SN broker and in order to do this you have to clone this [repository](https://github.com/eclipse/mosquitto.rsmb) to your machine. After that you have to og inside this folder and do the following steps:
-'''c
 > cd rsmb/src
 > make
 
