@@ -23,5 +23,5 @@ After the measurements carried out by the sensors previously exposed, if there i
 If one of the two conditions is no longer verified (therefore if the temperature falls below the threshold or the person gets up from the chair and there is no one else) the fan and the led switch off.
 
 
-[embed]https://github.com/StefanoRucci/Fun-with-fans/blob/main/Circuit.pdf[/embed]
+<embed>https://github.com/StefanoRucci/Fun-with-fans/blob/main/Circuit.pdf</embed>
 # Network
