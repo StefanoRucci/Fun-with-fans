@@ -24,4 +24,5 @@ If one of the two conditions is no longer verified (therefore if the temperature
 
 ![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/Circuit.pdf?raw=true)
 <img src="https://github.com/StefanoRucci/Fun-with-fans/blob/main/Circuit.pdf" width=40% height=40%>
+[embed]https://github.com/StefanoRucci/Fun-with-fans/blob/main/Circuit.pdf[/embed]
 # Network
