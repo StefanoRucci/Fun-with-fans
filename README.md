@@ -69,4 +69,4 @@ The system is composed by the sensors and the actuators seen above, but there ar
 * A **NPN trasnistor**
 
 They are connected with the nucleo board like in the following schema:
-<img src="https://github.com/Progedit/Lights-on-Parking/blob/bb1fbd40e96d720277dd34dc4504d3e9a08ba36e/images/Questionnaire/tempo.png" width=70% height=70%>
+<img src="https://github.com/StefanoRucci/Fun-with-fans/blob/main/Circuit.jpg" width=70% height=70%>
