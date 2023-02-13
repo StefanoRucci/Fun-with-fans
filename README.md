@@ -22,4 +22,6 @@ The actuators of the system are a *light led* and a *fan blade motor*.
 After the measurements carried out by the sensors previously exposed, if there is a person in the workstation and the temperature exceeds the pre-fixed threshold (in our case we have chosen the temperature of 28°), the fan starts working and at the same time the led that signals that the fan is on turns on.
 If one of the two conditions is no longer verified (therefore if the temperature falls below the threshold or the person gets up from the chair and there is no one else) the fan and the led switch off.
 
+![alt text](https://github.com/StefanoRucci/Fun-with-fan/blob/[branch]/image.jpg?raw=true)
+
 # Network
