@@ -56,7 +56,7 @@ So now we can start the broker with the following command always in the previous
 > ./broker_mqtts config.conf
 ```
 ## Transparent bridge 
-Now let's start the bridge from MQTT-SN and MQTT. You have to copy the file called *transparent_bridge.py* and launch it with the command:
+Now let's start the bridge from MQTT-SN and MQTT. Since that is not supported the direct bridge between RSMB and our service, we have to create it with a Python script. You have to copy the file called *transparent_bridge.py* and launch it with the command:
 ```
 python3 transparent_bridge.py
 ```
@@ -72,7 +72,7 @@ They are connected with the nucleo board like in the following schema:
 
 <img src="https://github.com/StefanoRucci/Fun-with-fans/blob/main/Circuit.jpg" width=70% height=70%>
 
-Once the circuit is built, we have to flash the firmware on the board. First of all we clone the [RIOT repository]() on our machine, and so in a terminal do the following steps:
+Once the circuit is built, we have to flash the firmware on the board. First of all we clone the [RIOT repository](https://github.com/RIOT-OS/RIOT) on our machine, and so in a terminal do the following steps:
 ```
 > sudo ./RIOT/dist/tools/tapsetup/tapsetup -c 2 
 > sudo ip a a 2000:2::1/64 dev tapbr0
