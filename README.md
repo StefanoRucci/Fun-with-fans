@@ -51,3 +51,7 @@ ipv6 true
 listener 1886 INADDR_ANY
 ipv6 true
 ```
+So now we can start the broker with the following command always in the previous terminal:
+```
+> ./broker_mqtts config.conf
+```
