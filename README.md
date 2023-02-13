@@ -9,7 +9,7 @@ The sensors of the system are an *ultrasonic sensor* and a *digital temperature 
 *  **Digital temperature-humidty Sensor:** it is a basic, low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed). With this sensor it is possible to measure the post office ambient temperature. 
 ### Periodicity of measurements
 The system is designed to reduce expenses and energy costs, therefore the ultrasonic sensor does not continuously estimate the data, but checks for the presence of someone every minute: 
-* if it does not detect an object in a space within 10cm, the device starts sleep-mode and measure again after 1 minute.
+* if it does not detect an object in a space within 20cm, the device starts sleep-mode and measure again after 1 minute.
 * on the contrary if there is someone, the temperature sensor starts to do its measurements on the ambient.
 
 So the ultrasonic sensor works every 1 minutes, and the temperature sensor works only there is a person of the workstation.
@@ -26,4 +26,4 @@ If one of the two conditions is no longer verified (therefore if the temperature
 ![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/Network.avif?raw=true)
 This is a schema of the compontents that make up the system both at the IoT device level and at the cloud level. The board is connected through MQTT-SN to a broker called Mosquitto hosted on the machine, the connection is carried out using IPv6 and RIOT-OS tap interfaces. So the board exchanges messages with Mosquitto by means of MQTT-SN, a communication protocol based on a publish/subscribe mechanism on a topic to which the board must be subscribed (in this case the topic is "temp"). Mosquitto exchanges messages using MQTT with the AWS ecosystem through a transparent bridge that converts from MQTT-SN to MQTT, it is a python script that works as a bridge between Mosquitto and AWS IoT Core.
 
-After this phase the data collected by the board arrive to AWS cloud service, and they have to be stored in a permanent way in a database. AWS allows us to use a NoSQL database called DynamoDB, and after to have create a table inside the microservice, we store the data received on the topic temp. After this in order to show this data on the web dashboard we have to use the REST API, by means of this is possible to extract the data from the table with a lambda function.
+After this phase the data collected by the board arrive to AWS cloud service, and they have to be stored in a permanent way in a database. AWS allows us to use a NoSQL database called DynamoDB, and after to have created a table inside the microservice, we store the data received on the topic temp. After this in order to show this data on the web dashboard we have to use the REST API, by means of this is possible to extract the data from the table with a lambda function.
