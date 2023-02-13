@@ -22,6 +22,5 @@ The actuators of the system are a *light led* and a *fan blade motor*.
 After the measurements carried out by the sensors previously exposed, if there is a person in the workstation and the temperature exceeds the pre-fixed threshold (in our case we have chosen the temperature of 28°), the fan starts working and at the same time the led that signals that the fan is on turns on.
 If one of the two conditions is no longer verified (therefore if the temperature falls below the threshold or the person gets up from the chair and there is no one else) the fan and the led switch off.
 
-
-<embed>https://github.com/StefanoRucci/Fun-with-fans/blob/main/Circuit.pdf</embed>
 # Network
+This is a schema of the compontents that make up the system both at the IoT device level and at the cloud level. The board is connected through MQTT-SN to a broker called Mosquitto hosted on the machine, the connection is carried out using IPv6 and RIOT-OS tap interfaces. So the board exchanges messages with Mosquitto by means of MQTT-SN, a communication protocol based on a publish/subscribe mechanism on a topic to which the board must be subscribed (in this case the topic is "temp"). Mosquitto exchanges messages using MQTT with the AWS ecosystem through a transparent bridge that converts from MQTT-SN to MQTT, it is a python script that works as a bridge between Mosquitto and AWS IoT Core.
