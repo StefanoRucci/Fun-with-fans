@@ -5,5 +5,6 @@ Fun-with-fans is the individual project of the IoT course of the master's degree
 The IoT device is developed using RIOT-OS as operating system and with a STM NUCLEO-f401re as board. The system sends data to the cloud and store there in a database, in particular the cloud-based services are based on Amazon Web Services (AWS); it is composed by 2 sensors and 2 actuators (light led and fan blade motor).
 ## Sensors
 The sensors of the system are an ultrasonic sensor and a digital temperature sensor.
-* Ultrasonic Sensor
+* **Ultrasonic Sensor:**
+
 gfdgd
