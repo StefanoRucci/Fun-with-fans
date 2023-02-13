@@ -62,4 +62,4 @@ python3 transparent_bridge.py
 ```
 Now we have the MQTT-SN broker and the trasparent bridge running, they are waiting for a message. Let'see the prototype and how to make it works.
 
-##Prototype
+## Prototype
