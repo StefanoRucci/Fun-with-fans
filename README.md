@@ -55,3 +55,11 @@ So now we can start the broker with the following command always in the previous
 ```
 > ./broker_mqtts config.conf
 ```
+## Transparent bridge 
+Now let's start the bridge from MQTT-SN and MQTT. You have to copy the file called *transparent_bridge.py* and launch it with the command:
+```
+python3 transparent_bridge.py
+```
+Now we have the MQTT-SN broker and the trasparent bridge running, they are waiting for a message. Let'see the prototype and how to make it works.
+
+##Prototype
