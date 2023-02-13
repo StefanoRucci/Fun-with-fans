@@ -91,3 +91,7 @@ Once the table was created, you have to setup a thing on AWS that can store auto
 
 ## Lambda Function
 Last, thanks to this lambda function, it is possible to extract the data stored inside the table, so that it is possible to do available for the user.
+
+# Links
+
+# Gallery
