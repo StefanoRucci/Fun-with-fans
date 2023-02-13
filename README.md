@@ -69,4 +69,11 @@ The system is composed by the sensors and the actuators seen above, but there ar
 * A **NPN trasnistor**
 
 They are connected with the nucleo board like in the following schema:
+
 <img src="https://github.com/StefanoRucci/Fun-with-fans/blob/main/Circuit.jpg" width=70% height=70%>
+
+Once the circuit is built, we have to flash the firmware on the board. First of all we clone the [RIOT repository]() on our machine, and so in a terminal do the following steps:
+```
+> sudo ./RIOT/dist/tools/tapsetup/tapsetup -c 2 
+> sudo ip a a 2000:2::1/64 dev tapbr0
+```
