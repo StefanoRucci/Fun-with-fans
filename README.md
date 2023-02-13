@@ -33,3 +33,5 @@ After this phase the data collected by the board arrive to **AWS** cloud service
 The messages on the network, and in particular the messages published on the topic, are in the format "*tXX.XhYY.Y*", and so they refer to the data of the temperature and the humidity. For example a possible message is "*t20.0h59.0*". So the lenght of a single message sent on the network is of 10 bytes, to transmit data from the board to mosquitto, it was chosen MQTT-SN because of its peculiarities: it reduces the size of the message payload and removes the need for a permanent connection by using UDP as the transport protocol.
 
 # Walkthrough of the system
+## Mosquitto (MQTT-SN Broker)
+The first thing to do is to setup the MQTT-SN broker and in order to do this you have to clone this [repository](https://github.com/eclipse/mosquitto.rsmb) to your machine. 
