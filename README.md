@@ -11,4 +11,5 @@ The sensors of the system are an *ultrasonic sensor* and a *digital temperature 
 The system is designed to reduce expenses and energy costs, therefore the ultrasonic sensor does not continuously estimate the data, but checks for the presence of someone every minute: 
 * if it does not detect an object in a space within 10cm, the device starts sleep-mode and measure again after 1 minute.
 * on the contrary if there is someone, the temperature sensor starts to do its measurements on the ambient.
+
 So the ultrasonic sensor works every 1 minutes, and the temperature sensor works only there is a person of the workstation.
