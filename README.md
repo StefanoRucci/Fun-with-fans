@@ -12,7 +12,7 @@ The system is designed to reduce expenses and energy costs, therefore the ultras
 * if it does not detect an object in a space within 20cm, the device starts sleep-mode and measure again after 1 minute.
 * on the contrary if there is someone, the temperature sensor starts to do its measurements on the ambient.
 
-So the ultrasonic sensor works every 1 minutes, and the temperature sensor works only if there is a person of the workstation.
+So the ultrasonic sensor works every 1 minute, and the temperature sensor works only if there is a person of the workstation.
 
 ## Actuators
 The actuators of the system are a *light led* and a *fan blade motor*.
@@ -66,7 +66,7 @@ Now we have the MQTT-SN broker and the trasparent bridge running, they are waiti
 The system is composed by the sensors and the actuators seen above, but there are also:
 * Two **resistor** of 220 Ohm.
 * A **diode** rectifier.
-* A **NPN trasnistor**
+* A **NPN transistor**
 
 They are connected with the nucleo board like in the following schema:
 
