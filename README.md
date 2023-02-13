@@ -40,3 +40,14 @@ The first thing to do is to setup the MQTT-SN broker and in order to do this you
 > cd rsmb/src
 > make
 ```
+After this, like it is explained in the guide in Mosquitto repository, you have to create a file called *config.conf* and write the following lines inside it:
+```
+# add some debug output
+trace_output protocol
+# listen for MQTT-SN traffic on UDP port 1885
+listener 1885 INADDR_ANY mqtts
+ipv6 true
+# listen to MQTT connections on tcp port 1886
+listener 1886 INADDR_ANY
+ipv6 true
+```
