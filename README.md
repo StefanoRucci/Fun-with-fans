@@ -93,5 +93,6 @@ Once the table was created, you have to setup a thing on AWS that can store auto
 Last, thanks to this lambda function, it is possible to extract the data stored inside the table, so that it is possible to do available for the user.
 
 # Links
+Check my [Linkedln profile](https://www.linkedin.com/in/stefano-rucci-74b5b6220/)!
 
 # Gallery
