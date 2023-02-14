@@ -98,6 +98,6 @@ Check my [Linkedln profile](https://www.linkedin.com/in/stefano-rucci-74b5b6220/
 # Gallery
 ![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/images/img1.jpeg?raw=true)
 ![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/images/img2.jpeg?raw=true)
-![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/Network.avif?raw=true)
-![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/Network.avif?raw=true)
-![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/Network.avif?raw=true)
+![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/images/img3.jpeg?raw=true)
+![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/images/img4.jpeg?raw=true)
+![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/images/img5.jpeg?raw=true)
