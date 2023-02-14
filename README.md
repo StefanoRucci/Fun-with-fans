@@ -94,6 +94,7 @@ Last, thanks to this lambda function, it is possible to extract the data stored 
 
 # Links
 Check my [Linkedln profile](https://www.linkedin.com/in/stefano-rucci-74b5b6220/)!
+[Here](https://www.hackster.io/stefano-rucci/fun-with-fans-c9f7bd) you can find the blog post.
 
 # Gallery
 ![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/images/img1.jpeg?raw=true)
