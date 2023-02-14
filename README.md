@@ -96,3 +96,8 @@ Last, thanks to this lambda function, it is possible to extract the data stored 
 Check my [Linkedln profile](https://www.linkedin.com/in/stefano-rucci-74b5b6220/)!
 
 # Gallery
+![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/Network.avif?raw=true)
+![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/Network.avif?raw=true)
+![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/Network.avif?raw=true)
+![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/Network.avif?raw=true)
+![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/Network.avif?raw=true)
