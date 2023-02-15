@@ -101,6 +101,8 @@ Check my [Linkedln profile](https://www.linkedin.com/in/stefano-rucci-74b5b6220/
 
 [Here](https://www.hackster.io/stefano-rucci/fun-with-fans-c9f7bd) you can find the blog post.
 
+[Here](https://www.youtube.com/watch?v=4WWX7lU4Ipo) you can find a video demonstration of the prototype.
+
 # Gallery
 ![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/images/img1.jpeg?raw=true)
 ![alt text](https://github.com/StefanoRucci/Fun-with-fans/blob/main/images/img2.jpeg?raw=true)
