@@ -92,6 +92,10 @@ Once the table was created, you have to setup a thing on AWS that can store auto
 ## Lambda Function
 Last, thanks to this lambda function, it is possible to extract the data stored inside the table, so that it is possible to do available for the user.
 
+# Plans for the future
+
+In the future, an optimal choice to improve system accuracy and energy consumption is to replace the ultrasonic sensor used to check the presence of a person at the workstation with a **weight pressure sensor**. In this way it will be possible to trigger the system only when a person stands up or sits down, eliminating unnecessary measurements.
+
 # Links
 Check my [Linkedln profile](https://www.linkedin.com/in/stefano-rucci-74b5b6220/)!
 
